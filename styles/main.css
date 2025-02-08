@@ -106,6 +106,7 @@ nav a:hover{
   color: #156bac;
 }
 footer{
+  margin-top: 6em;
   min-height: 50px;
   display: flex;
   justify-content: space-around;
@@ -122,6 +123,7 @@ footer p{
   padding: 1em ;
   color: #f5f5f5;
   text-decoration: none;
+  vertical-align: middle;
 }
 #welcome-text{
   margin-top: 100px;
@@ -186,8 +188,27 @@ footer p{
   color: rgb(204, 204, 204, 0);
   margin: 0;
 }
+#all-projects-links{
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+  font-family:Effra, Helvetica, sans-serif ;
+  font-weight: 500;
+  font-size: 24pt;
+  text-decoration: none;
+  color: #000;
+}
+#all-projects-links:hover{
+  color: #156bac;
+}
 
 /* PROJECT PAGE */
+#projects-header{
+  margin-top: 75px;
+  padding-left: 75px;
+  font-size: 32pt;
+  font-weight: 400;
+}
 
 .hero-img-banner{
   width: 100%;
