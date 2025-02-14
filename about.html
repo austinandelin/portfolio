@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Austin Andelin - Portfolio</title>
     <link href='styles/main.css' rel='stylesheet'>
+    <link href='styles/form.css' rel='stylesheet'>
     <link href='../styles/project-content.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
 </head>
@@ -62,23 +63,23 @@
     <button class="fs-button" type="submit">Submit</button>
   </div>
 </form>
-    <!-- <script>
-        // get the feedback div element so we can do something with it.
-        const feedbackElement = document.getElementById('feedback');
-        // get the form so we can read what was entered in it.
-        const formElement = document.forms[0];
-        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-            // stop the form from doing the default action.
-            e.preventDefault();
-            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-            // make the feedback element visible.
-            feedbackElement.style.display = "block";
-            // add a class to move everything down so our message doesn't cover it.
-            document.body.classList.toggle('moveDown');
-        });
-    </script> -->
-    
+<footer>
+  <div id='contact_info'>
+  <p> &copy; 2025 - Austin Andelin</p>
+  </div>
+  <div id='footer-links'>
+      <a href="mailto:austin.andelin@outlook.com">
+          <img src='images/mail.png' alt='link to Linkedin profile'>
+      </a>
+      <a href="https://www.linkedin.com/in/austin-andelin/" target='_blank'>
+          <img src='images/mdi--linkedin.png' alt='link to Linkedin profile'>
+      </a>
+      <a id='github' href="https://github.com/austinandelin/portfolio" target='_blank'>
+          <img src='images/mage--github.png' alt='link to Github project'>
+      </a>
+      <a href="projects.html">My Work</a>
+      <a href="about.html">About Me</a>
+  </div>
+</footer>
 </body>
 </html>
