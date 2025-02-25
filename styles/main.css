@@ -79,6 +79,16 @@ nav{
   /* display: grid;
   grid-template-columns: 350px 1fr; */
   background-color: #e6e5e5;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  padding: 15px;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
 }
 #logo{
   width: 350px;
@@ -244,6 +254,12 @@ nav .link::after{
   width: 100%; /* The underline expands to the full width of the link on hover */
 }
 /* PROJECT PAGE */
+#projects-header{
+  margin-top: 75px;
+  padding-left: 75px;
+  font-size: 32pt;
+  font-weight: 400;
+}
 
 
 
@@ -254,10 +270,15 @@ nav .link::after{
   text-align: left;
   margin: 100px;
 }
+#about h1{
+  font-size: 28pt;
+  font-weight: 400;
+}
 #profile-image{
   width: 60%;
   margin: 30px;
   object-fit:cover ;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 900px) {

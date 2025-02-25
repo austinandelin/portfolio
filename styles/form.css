@@ -100,7 +100,7 @@
     color: var(--color-text-muted);
     display: block;
     font-size: 1rem;
-    line-height: 1.25rem;
+    margin: 0;
   }
   
   .fs-button-group {
@@ -156,8 +156,8 @@
     box-shadow: var(--color-border-active) 0 0 0 1px inset;
   }
   
-  .fs-input::placeholder {
-    color: var(--color-text-muted);
+  .fs-input::placeholder, .fs-textarea::placeholder {
+    color: #cacaca;
   }
   
   .fs-checkbox-group,
@@ -332,9 +332,6 @@
     box-shadow: var(--color-border-active) 0 0 0 1px inset;
   }
   
-  .fs-textarea::placeholder {
-    color: var(--color-text-muted);
-  }
   #feedback {
     background-color: antiquewhite;
     position: absolute;
