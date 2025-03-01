@@ -61,11 +61,11 @@
 
   @media screen and (min-width: 900px) {
     .hero-img-banner {
-      height: 650px;
+      height: 600px;
     }
   }
   @media screen and (min-width: 1700px) {
     .hero-img-banner {
-      height: 775px;
+      height: 700px;
     }
   }
