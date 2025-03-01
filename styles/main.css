@@ -234,6 +234,7 @@ footer p{
 .link{
   text-decoration: none;
   position: relative;
+  display: inline-block;
 }
 .link::after {
   content: '';

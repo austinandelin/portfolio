@@ -15,12 +15,27 @@
   #august-hero-img{
     background-image: url(../images/august/august-hero.png);
   }
-  .project-text h1, .project-text h4{
+  .project-text h1{
     margin: 0;
+    font-size: 40pt;
   }
-  #project-descriptor{
-    display: block;
-    margin-bottom: 1em;
+  .project-text h4{
+    margin: 0;
+    font-size: 18pt;
+  }
+  .project-chip{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    display: inline-block;
+  padding: 0 25px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 36px;
+  border-radius: 25px;
+  background-color: #c9e4f8;
+  color: #156bac;
+  font-weight: 400;
   }
   .project-text{
     margin: 0 auto;
