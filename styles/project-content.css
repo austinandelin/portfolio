@@ -1,7 +1,7 @@
 
   .hero-img-banner{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     margin-bottom: 50px;
@@ -15,13 +15,20 @@
   #august-hero-img{
     background-image: url(../images/august/august-hero.png);
   }
+  #project-header{
+    width: 80%;
+    margin: 0 auto;
+  }
   .project-text h1{
     margin: 0;
-    font-size: 40pt;
+    font-size: 32pt;
   }
   .project-text h4{
     margin: 0;
     font-size: 18pt;
+  }
+  #project-header p{
+    width: 100%;
   }
   .project-chip{
     margin-top: 5px;
@@ -37,8 +44,8 @@
     color: #156bac;
     font-weight: 400;
   }
-  .project-text{
-    margin: 0 auto;
+  .project-text p, h2{
+    margin: 1em auto;
     width: 80%;
   }
   #rrg{
@@ -54,14 +61,23 @@
     url(../images/august-project-card-blue.png);
   }
   .project-image{
-    width: 80%;
-    margin: 2em auto;
+    width: 100%;
+    margin: 1em auto;
     display: block;
   }
-
+  @media screen and (min-width: 500px) {
+    .project-text h1{
+      font-size: 40pt;
+    }
+    
+  }
   @media screen and (min-width: 900px) {
     .hero-img-banner {
       height: 600px;
+    }
+    .project-image{
+      width: 70%;
+      margin: 2em auto;
     }
   }
   @media screen and (min-width: 1700px) {

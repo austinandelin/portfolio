@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav id='navbar'>
-            <a id='logo-link' href='index.html' alt='Austin Andelin'>
+            <a id='logo-link' href='../index.html' alt='Austin Andelin'>
                 <picture id='logo'>
                     <source media='(min-width: 400px)' srcset='../portfolio/images/Logotype.png' width='350px'>
                     <source media='(max-width: 400px)' srcset='../portfolio/images/favicon.png' height='40px' width='30px'>
@@ -22,8 +22,8 @@
                 <!-- <img id='logo' src="./images/Logotype.png" alt="Austin Andelin"> -->
             </a>
             <div id='nav-links'>
-                <a class='link' href='projects.html'>My Work</a>
-                <a class='link' href='about.html'>About Me</a>
+                <a class='link' href='../projects.html'>My Work</a>
+                <a class='link' href='../about.html'>About Me</a>
             </div>
         </nav>
     </header>
@@ -31,9 +31,11 @@
     <div class='content'>
         <div class='hero-img-banner' id='emree-jolley-img'></div>
         <div class='project-text'>
-            <h1>Emree Jolley</h1>
-            <div href='/projects.html' class='project-chip' >Branding/Identity</div>
-            <div href='/projects.html' class='project-chip' >Advertising</div>
+            <div id='project-header'>
+                <h1>Emree Jolley</h1>
+                <div href='/projects.html' class='project-chip' >Branding/Identity</div>
+                <div href='/projects.html' class='project-chip' >Advertising</div>
+            </div>
             <p>Emree Jolley is a graphic designer who found herself in need of a refreshed identity system. The scope of this project included all elements of a visual identity, such as a logotype and stationary.</p>
             <img class='project-image' src="../images/emree/big-hero-mockup.png" alt="Business cards, resume, and envelopes for Emree Jolley.">            
         </div>
@@ -53,8 +55,8 @@
             <a id='github' href="https://github.com/austinandelin/portfolio" target='_blank'>
                 <img src='../images/mage--github.png' alt='link to Github project'>
             </a>
-            <a href="projects.html">My Work</a>
-            <a href="about.html">About Me</a>
+            <a class='link-to-pages' href="projects.html">My Work</a>
+            <a class='link-to-pages' href="about.html">About Me</a>
         </div>
       </footer>
 </body>
