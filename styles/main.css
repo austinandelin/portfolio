@@ -181,6 +181,7 @@ footer p{
     border-radius: 25px;
     width: 450px;
     transition: all .5s;
+    z-index: -1;
 }
 
 .overlay-text{
