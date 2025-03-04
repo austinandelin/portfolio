@@ -28,14 +28,14 @@
     margin-bottom: 15px;
     margin-right: 10px;
     display: inline-block;
-  padding: 0 25px;
-  height: 35px;
-  font-size: 16px;
-  line-height: 36px;
-  border-radius: 25px;
-  background-color: #c9e4f8;
-  color: #156bac;
-  font-weight: 400;
+    padding: 0 25px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 36px;
+    border-radius: 25px;
+    background-color: #c9e4f8;
+    color: #156bac;
+    font-weight: 400;
   }
   .project-text{
     margin: 0 auto;
