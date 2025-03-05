@@ -324,8 +324,16 @@ nav .link::after{
   #navbar{
     padding: 10px;
   }
+  #about{
+    flex-direction: column;
+    margin: 1em auto;
   }
-  @media screen and (max-width: 650) {
+  #profile-image{
+    width: 100%;
+    margin: 15px auto;
+  }
+  }
+  @media screen and (max-width: 650px) {
     .project-card{
       width: 350px;
     }
