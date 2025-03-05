@@ -1,38 +1,62 @@
-@font-face {
-    font-family: "Eau Douce Sans";
-    src: url("../fonts/eau_douce_sans-regular.woff2") format('woff2');
-  }
-  
   @font-face {
-    font-family: "Eau Douce Sans";
-    src: url("../fonts/eau_douce_sans-bold.woff2") format('woff2');
-    font-weight: bold;
-  }
-  
-  @font-face {
-    font-family: "Eau Douce Sans";
-    src: url("../fonts/eau_douce_sans-heavy.woff2") format('woff2');
-    font-weight: heavy;
-  }
-  
-  @font-face {
-    font-family: "Eau Douce Sans";
-    src: url("../fonts/eau_douce_sans-light.woff2") format('woff2');
-    font-weight: light;
+    font-family: "Effra";
+    src: url("../fonts/Effra Light.woff2") format('woff2');
+    font-weight: 200;
+    font-style: normal;
   }
   @font-face {
-    font-family: "Eau Douce Sans";
-    src: url("../fonts/eau_douce_sans-medium.woff2") format('woff2');
-    font-weight: medium;
-  }
-  @font-face {
-    font-family: "Eau Douce Sans";
-    src: url("../fonts/eau_douce_sans-thin.woff2") format('woff2');
-    font-weight: thin;
+    font-family: "Effra";
+    src: url("../fonts/Effra Light Italic.woff2") format('woff2');
+    font-weight: 200;
+    font-style: italic;
   }
   @font-face {
     font-family: "Effra";
     src: url("../fonts/Effra Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Regular Italic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Medium.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Medium Italic.woff2") format('woff2');
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Bold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Bold Italic.woff2") format('woff2');
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Heavy.woff2") format('woff2');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Effra";
+    src: url("../fonts/Effra Heavy Italic.woff2") format('woff2');
+    font-weight: 900;
+    font-style: italic;
   }
 
   *,
@@ -71,7 +95,7 @@ h3{
   font-weight: 500;
 }
 h4{
-  font-family: Eau Douce Sans, Helvetica, sans-serif;
+  font-family: Effra, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14pt;
 }
@@ -210,6 +234,7 @@ footer p{
   line-height: 18pt;
   color: rgb(204, 204, 204, 0);
   margin: 0;
+  font-weight: 400;
 }
 #all-projects-links{
   width: 20%;
@@ -301,6 +326,9 @@ nav .link::after{
   #home-grid {
     flex-direction: column;
   }
+  .project-card{
+    margin: 20px auto;
+  }
   nav {
     flex-direction: column;
     padding: 0;
@@ -332,24 +360,28 @@ nav .link::after{
     width: 100%;
     margin: 15px auto;
   }
+  .link-to-pages{
+    display: none;
   }
-  @media screen and (max-width: 650px) {
-    .project-card{
-      width: 350px;
-    }
   }
-@media screen and (max-width: 400px) {
-  
+@media screen and (max-width: 500px) {
+  .project-card{
+    width: 350px;
+  }
   footer{
     flex-direction: column;
     margin-top: 2em;
     padding-top: 2em;
   }
   #contact-info{
-    margin-top: 20px;
+    margin: 0 auto;
+  }
+  #contact-info p{
+    margin: 0 auto;
   }
   #footer-links{
     margin-top: 20px;
+    align-self: center;
   }
   #welcome-text{
     font-size: 18pt;
@@ -360,8 +392,6 @@ nav .link::after{
   nav a{
     font-size: 14pt;
   }
-  .link-to-pages{
-    display: none;
-  }
+
 
 }
