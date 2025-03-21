@@ -15,6 +15,9 @@
   #august-hero-img{
     background-image: url(../images/august/august-hero.png);
   }
+  #otternaut-hero-img{
+    background-image: url(../images/otternaut/otternaut-hero.png);
+  }
   #project-header{
     width: 80%;
     margin: 0 auto;
@@ -48,6 +51,14 @@
     margin: 1em auto;
     width: 80%;
   }
+  .image-caption{
+    font-style: italic;
+    text-align: center;
+  }
+  #customer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .0), rgba(0, 0, 0, .75)), 
+    url(../images/customer-hero.png);
+  }
   #rrg{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .0), rgba(0, 0, 0, .75)), 
     url(../images/rrg_hero1.png);
@@ -64,10 +75,14 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .0), rgba(0, 0, 0, .75)), 
     url(../images/otternaut-project-card.png);
   }
+
   .project-image{
     width: 100%;
     margin: 1em auto;
     display: block;
+  }
+  #small-image{
+    width: 30%;
   }
   @media screen and (min-width: 500px) {
     .project-text h1{

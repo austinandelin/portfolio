@@ -101,6 +101,7 @@ h4{
 }
 p{
   font-weight: 300;
+  line-height: 1.2;
 }
 a{
   color: #000;
@@ -310,6 +311,9 @@ nav .link::after{
   display: flex;
   text-align: left;
   margin: 100px;
+}
+#about-contact{
+  display:block;
 }
 #about h1{
   font-size: 28pt;
