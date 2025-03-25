@@ -18,6 +18,12 @@
   #otternaut-hero-img{
     background-image: url(../images/otternaut/otternaut-hero.png);
   }
+  #farmpass-hero-img{
+    background-image: url(../images/farmpass/farmpass-hero.png);
+  }
+  #reeds-hero-img{
+    background-image: url(../images/reeds/reed-hero.png);
+  }
   #project-header{
     width: 80%;
     margin: 0 auto;
@@ -74,6 +80,14 @@
   #otternaut{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .0), rgba(0, 0, 0, .75)), 
     url(../images/otternaut-project-card.png);
+  }
+  #farmpass{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .0), rgba(0, 0, 0, .75)), 
+    url(../images/farmpass-project-card.png);
+  }
+  #reeds{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .0), rgba(0, 0, 0, .75)), 
+    url(../images/reeds-project-card.png);
   }
 
   .project-image{

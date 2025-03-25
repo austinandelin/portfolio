@@ -190,6 +190,7 @@ footer p{
   font-size: 32pt;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 0px;
 }
 #home-grid{
     justify-content: center;
@@ -197,6 +198,7 @@ footer p{
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    margin-top: 2em;
 }
 .project-card{
     position: relative;
@@ -259,12 +261,13 @@ footer p{
   font-size: 24pt;
 }
 #cta-button{
+  display: inline-block;
   background-color:#156bac;
   color: whitesmoke;
   text-decoration: none;
   font-size: 1.2em;
   padding: .5em 2em;
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
   border-radius: 15px;
   transition: all .5s;
 }
