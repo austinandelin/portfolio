@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Andelin - Portfolio</title>
+    <link href='../styles/main.css' rel='stylesheet'>
+    <link href='../styles/project-content.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="shortcut icon"
+      href="../images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav id='navbar'>
+            <a id='logo-link' href='https://austinandelin.com' alt='Austin Andelin'>
+                <picture id='logo'>
+                    <source media='(min-width: 400px)' srcset='../images/Logotype.png' width='350px'>
+                    <source media='(max-width: 400px)' srcset='../images/favicon.png' height='40px' width='30px'>
+                    <img src="../images/Logotype.png" alt="Austin Andelin Logo" height='100' width='200'>
+                </picture>
+                <!-- <img id='logo' src="./images/Logotype.png" alt="Austin Andelin"> -->
+            </a>
+            <div id='nav-links'>
+                <a class='link' href='../projects'>My Work</a>
+                <a class='link' href='../about'>About Me</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div class='content'>
+        <div class='hero-img-banner' id='jurassic-farm-hero-img'></div>
+        <div class='project-text'>
+            <div id='project-header'>
+                <h1 class='project-title' >Jurassic Farm</h1>
+                <div href='/projects' class='project-chip' >UI</div>
+                <div href='/projects' class='project-chip' >Environmental</div>
+
+                <p>I partnered with a developer to create the maze game Jurassic Farm for Andelin Family Farm in Sparks, Nevada. This game keeps visitors entertained as they walk through and turns a corn maze into a true attraction that gets people coming back again and again.</p>
+            <div>
+                <a class='project-outlink' href='https://www.andelinfamilyfarm.com/jurassic-farm/start/' target='_blank'>Try out the game for yourself here!</a>
+            </div>
+            </div>
+            
+            <h2>Strategy & Scope</h2>
+            <p>I had created a few games for previous years' corn mazes of Andelin Family Farm. They were typically more educationally focused, with information tied to the theme of the corn maze design. For 2025 I wanted to step up the quality of the game itself and turn it into an integral part of the corn maze. This could be used in marketing to generate excitement about the maze, be an additional activity for visitors (leading to longer visits and higher spend), and increase word-of-mouth advertising and return visits after the experience.  </p>
+            <h2>Designing a Good Game</h2>
+            <p>The two main focuses were creating a game that is easy to understand and easy to share. I determined that building on the simple checkpoint system would be the best course of action. I took inspiration from Pokemon TCG and other collection-type games: Find all of the checkpoints, collect all the dinosurs, share those dinos with your friends. Very easy feedback loop.</p>
+            <p>Much of the designing process was deciding what to cut out. My first prototype had more complex game mechanics. After finding a fossil dig site checkpoint, players would collect the DNA from the dig site and decide where on the genome to place it. Placement affected which dinosaur the user would receive at the end of the game. Though perhaps more fun for some, it added nothing that the player could do, only being an extra step in collection. Interactivity for interactivity's sake is not a good experience.</p>
+            <img id='project-image' src="../images/jurassic-farm/image-1.png" alt="Three prototype screens showing the DNA collection process." class="project-image">
+            <p class="image-caption">Early digital prototype screens.</p>
+            <div class='notice'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+                    <path fill="#156bac" d="M256 95.998h34.924v34.924H256z" />
+                    <path fill="#156bac" d="M285.313 359.032a18.12 18.12 0 0 1-15.6 8.966a18.06 18.06 0 0 1-17.327-23.157l35.67-121.277a49.577 49.577 0 0 0-93.356-32.992l-11.718 28.234l29.557 12.266l11.718-28.235a17.577 17.577 0 0 1 33.1 11.7l-35.67 121.277A50.06 50.06 0 0 0 269.709 400a50.23 50.23 0 0 0 43.25-24.853l15.1-25.913l-27.646-16.115Z" />
+                    </svg>
+                     <h4>This is an ongoing project and more updates are coming soon!</h4>
+                </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div id='contact_info'>
+          <p> &copy; 2025 - Austin Andelin</p>
+        </div>
+        <div id='footer-links'>
+            <a href="mailto:austin.andelin@outlook.com">
+                <img src='../images/mail.png' alt='link to Linkedin profile'>
+            </a>
+            <a href="https://www.linkedin.com/in/austin-andelin/" target='_blank'>
+                <img src='../images/mdi--linkedin.png' alt='link to Linkedin profile'>
+            </a>
+            <a id='github' href="https://github.com/austinandelin/portfolio" target='_blank'>
+                <img src='../images/mage--github.png' alt='link to Github project'>
+            </a>
+            <a class='link-to-pages' href="projects">My Work</a>
+            <a class='link-to-pages' href="about">About Me</a>
+        </div>
+      </footer>
+    
+</body>
+</html>
