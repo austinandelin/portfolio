@@ -17,6 +17,7 @@
   }
   #otternaut-hero-img{
     background-image: url(../images/otternaut/otternaut-hero.png);
+    background-position: right;
   }
   #farmpass-hero-img{
     background-image: url(../images/farmpass/farmpass-hero.png);
