@@ -11,21 +11,8 @@
       href="../images/favicon.ico">
 </head>
 <body>
-    <header>
-        <nav id='navbar'>
-            <a id='logo-link' href='https://austinandelin.com' alt='Austin Andelin'>
-                <picture id='logo'>
-                    <source media='(min-width: 500px)' srcset='../images/Logotype.png' width='350px'>
-                    <source media='(max-width: 900px)' srcset='../images/favicon.png' height='40px' width='30px'>
-                    <img src="../images/Logotype.png" alt="Austin Andelin Logo" height='100' width='200'>
-                </picture>
-                <!-- <img id='logo' src="./images/Logotype.png" alt="Austin Andelin"> -->
-            </a>
-            <div id='nav-links'>
-                <a class='link' href='../projects'>My Work</a>
-                <a class='link' href='../about'>About Me</a>
-            </div>
-        </nav>
+    <header class='main-header'>
+    <div id='header'></div>
     </header>
     <main>
     <div class='content'>
@@ -41,23 +28,9 @@
         </div>
     </div>
     </main>
-    <footer>
-        <div id='contact_info'>
-          <p> &copy; 2025 - Austin Andelin</p>
-        </div>
-        <div id='footer-links'>
-            <a href="mailto:austin.andelin@outlook.com">
-                <img src='../images/mail.png' alt='link to Linkedin profile'>
-            </a>
-            <a href="https://www.linkedin.com/in/austin-andelin/" target='_blank'>
-                <img src='../images/mdi--linkedin.png' alt='link to Linkedin profile'>
-            </a>
-            <a id='github' href="https://github.com/austinandelin/portfolio" target='_blank'>
-                <img src='../images/mage--github.png' alt='link to Github project'>
-            </a>
-            <a class='link-to-pages' href="projects">My Work</a>
-            <a class='link-to-pages' href="about">About Me</a>
-        </div>
-      </footer>
+            <div id='footer'></div>
+
+    <script src="../scripts/image-modal.js"></script>
+    <script src="../components/includes.js"></script>
 </body>
 </html>

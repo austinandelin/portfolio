@@ -28,6 +28,9 @@
   #jurassic-farm-hero-img{
     background-image: url(../images/jurassic-farm/jurassic-farm-hero.png);
   }
+  #wtp-hero-img{
+    background-image: url(../images/wtp/wtp-hero.jpg);
+  }
   #project-header{
     width: 80%;
     margin: 0 auto;
@@ -66,13 +69,68 @@
     text-align: center;
   }
   .project-image{
-    width: 100%;
+    width: 60%;
     margin: 1em auto;
     display: block;
+    cursor: pointer;
   }
-  #small-image{
+  .small-image{
     width: 30%;
+    margin: 1em auto;
+    display: block;
+    cursor: pointer;
   }
+
+  /* Modal image overlay */
+  .image-modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .image-modal-overlay.active{
+    display: flex;
+  }
+  .image-modal-content{
+    position: relative;
+    max-width: 80vw;
+    max-height: 90vh;
+  }
+  .image-modal-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    height: 90vh;
+  }
+  .image-modal-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  body.modal-open {
+    overflow: hidden;
+  }
+
+
   .notice{
     display: flex;
     margin: 0 auto;
@@ -130,7 +188,7 @@
       height: 600px;
     }
     .project-image{
-      width: 70%;
+      width: 50%;
       margin: 2em auto;
     }
   }

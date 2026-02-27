@@ -11,21 +11,8 @@
       href="../images/favicon.ico">
 </head>
 <body>
-    <header>
-        <nav id='navbar'>
-            <a id='logo-link' href='https://austinandelin.com' alt='Austin Andelin'>
-                <picture id='logo'>
-                        <source media='(min-width: 500px)' srcset='../images/Logotype.png' width='350px'>
-                        <source media='(max-width: 900px)' srcset='../images/favicon.png' height='40px' width='30px'>
-                        <img src="..sss/images/Logotype.png" alt="Austin Andelin Logo" height='100' width='200'>
-                </picture>.
-                <!-- <img id='logo' src="./images/Logotype.png" alt="Austin Andelin"> -->
-            </a>
-            <div id='nav-links'>
-                <a class='link' href='../projects'>My Work</a>
-                <a class='link' href='../about'>About Me</a>
-            </div>
-        </nav>
+    <header class='main-header'>
+    <div id='header'></div>
     </header>
     <main>
     <div class='content'>
@@ -36,12 +23,17 @@
                 <div href='/projects' class='project-chip' >Interface</div>
                 <p>An event ticketing service for agritourism businesses, Farmpass services the unique needs of corn mazes and seasonal festivals around the country. However, after 8 years of added features it was in great need of rethinking. I worked to redesign the general look and feel of Farmpass, along with creating mockups of features yet to come. As it was an event ticketing platform, the look must blend into the brand of each company using it. Thus, it must be simple and universal, with a spare color palette and light feel.</p>
                 <div>
-                <a class='link' id='project-outlink' href='https://www.farmpass.com' target='_blank'>Click to learn more about Farmpass</a>
             </div>
             </div>
+            <h2>Strategy</h2>
+            <p>There were two primary focuses of the redesign, the ticket creation/editing system and the reports pages. These were the touchpoints that most users interacted with frequently adn the place where the most improvement could be made.</p>
             <h2>Ticket Management</h2>
-            <p>After so many years of new features the ticket management system had become unwieldy. Row after row of settings that were organized mostly by how recently they were added to the product. The reorganized interface includes collapsible sections of settings and a preview to show what your ticket looks like.</p>
+            <p>After so many years of new features the ticket management system had become unwieldy. Row after row of settings that were organized mostly by how recently they were added. It was so overwhelming to new users that Farmpass employees would often have to create the tickets for them.</p>
+            <p>I reorganized the interface to include collapsible sections of settings and a preview to show what your ticket looks like. These sections and subsections helped guide the user to what they were looking for, even when they weren't exactly sure what it was.</p>
             <img class='project-image' src="../images/farmpass/farmpass1.png" alt="Image showing the ticket editing screen. There are several categories of ticket settings.">
+            <h2>Reports</h2>
+            <p>The reports system was also in need of a redesign. Most were little more than tables, and the databases would load all at once, making page loads take as long as 2 minutes for an extensive report. Creating a page that presented less information at once was doubly effective; easier to navigate and faster to load. The challenge was how to present it. I worked to make each page feel cohesive and familiar, while being flexible enough to support different data sets and user needs. My solution was to create a frame that each report would fit in, with areas dedicated to each part of the various reports.</p>
+            <img class='project-image' src='../images/farmpass/farmpass-2.png' alt='Demonstration of the structure. Header, Visualization, Data, and Action sections are shown.'>
                 <div class='notice'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
                     <path fill="#156bac" d="M256 95.998h34.924v34.924H256z" />
@@ -53,24 +45,9 @@
         
     </div>
     </main>
-    <footer>
-        <div id='contact_info'>
-          <p> &copy; 2025 - Austin Andelin</p>
-        </div>
-        <div id='footer-links'>
-            <a href="mailto:austin.andelin@outlook.com">
-                <img src='../images/mail.png' alt='link to Linkedin profile'>
-            </a>
-            <a href="https://www.linkedin.com/in/austin-andelin/" target='_blank'>
-                <img src='../images/mdi--linkedin.png' alt='link to Linkedin profile'>
-            </a>
-            <a id='github' href="https://github.com/austinandelin/portfolio" target='_blank'>
-                <img src='../images/mage--github.png' alt='link to Github project'>
-            </a>
-            <a class='link-to-pages' href="projects">My Work</a>
-            <a class='link-to-pages' href="about">About Me</a>
-        </div>
-      </footer>
-    
+            <div id='footer'></div>
+
+    <script src="../scripts/image-modal.js"></script>
+    <script src="../components/includes.js"></script>
 </body>
 </html>

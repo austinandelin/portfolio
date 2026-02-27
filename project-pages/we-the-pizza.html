@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Andelin - Portfolio</title>
+    <link href='../styles/main.css' rel='stylesheet'>
+    <link href='../styles/project-content.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="shortcut icon"
+      href="../images/favicon.ico">
+</head>
+<body>
+    <header class='main-header'>
+    <div id='header'></div>
+    </header>
+    <main>
+    <div class='content'>
+        <div class='hero-img-banner' id='wtp-hero-img'></div>
+        <div class='project-text'>
+            <div id='project-header'>
+                <h1 class='project-title' >We the Pizza</h1>
+                <div href='/projects' class='project-chip' >Interface</div>
+                <div href='/projects' class='project-chip' >AI Prototyping</div>
+
+                <p>This was an idea I had when I was in college. There were so many events going on that offered food, enough that it was tempting to track them all and never have to pay for my own pizza again. At the same time, I wanted to experiment with creating functional prototypes using AI, hoping to learn about the process, advantages, and limitations of current technology.</p>
+            <div>
+                <a class='link' id='project-outlink' href='https://preview--we-the-pizza.lovable.app/' target='_blank'>Click to try it yourself!</a>
+            </div>
+            </div>
+            
+            <h2>Scope & Process</h2>
+            <p>The principle goal was to create a prototype that would be sufficient to use in user testing and demonstration. Thus there is no user login system or many of the features that would be needed in a production app. Instead I focused on the core features of the app - adding, viewing, and rating events. This is a web-based, mobile-first application.</p>
+            <p>My process for creating We the Pizza was to make prototype screens using Figma, the way I typically would. Then, instead of handing it off to developers or coding it myself, I gave the images to Loveable to recreate. I included a detailed description of the app elements, but instructed it to match the images closely for design. My design was intentionally simple to keep the barrier between the images and AI implementation low.</p>
+            <img src="../images/wtp/wtp-1.png" alt="Chat bubble that says: Create an app using this picture as a guide. A pizza box icon used for the 'saved' tab, a pizza logo in the middle that brings the user to the top of the screen, and a plus icon that opens a 'add new event' page. Below that is a carousel of card. When tapped the cards expand to the whole screen. Below the cards is a calendar (showing two weeks of days stacked) with indicators of how many events are on each day." class="small-image">
+            <p class="image-caption">Intial prompt given to Loveable.</p>
+            <h2>The 80/20 Problem</h2>
+            <p>As it currently exists, AI vibe coding sits in a peculiar place. It can get the product 80% of the way there very quickly, but the final 20% of refinement is difficult and slow. This is not unique to AI, but it still impedes the rapid prototype development that was the goal of this project.</p>
+            <p>I was pleasantly surprised by how close to my designs it initially looked, but on closer inspection there were many little things that needed refinement. Again, not unusual in the process of design. However, when I prompted it to correct and improve, it seemed there was a wall. Inconsistencies, visual bugs, and reverting changes were common. It took me 5 minutes to create the first version, but several weeks to finally get it to a sufficiently functional state.</p>
+            <img src="../images/wtp/wtp-2.png" alt="" class="project-image">
+            <p class="image-caption">Side by side comparison of the original design (left) and final prototype (right).</p>
+            <h2>Experience</h2>
+            <p>Though the actual prompting process was somewhat more arduous than I expected, there were many benefits I noticed to this workflow. First, I could design and create userflows that would be difficult to wireframe using Figma, like ratings, live counters, and user input. Additionally, by having a functional and adaptable prototype, I could experiment very quickly with different ideas. I found myself adding all sorts of new features that were inspired by using the prototype myself.</p>
+            <p>I can imagine this being a game-changing user testing tool. It would allow a team to very quickly get a workable prototype for testing and feedback. Having reactive sliders and text fields could really elevate the user experience, leading to more accurate and useful feedback. A/B tests would be easier than ever and all of this could be done earlier in the design process than ever before.</p>
+        </div>
+    </div>
+    </main>
+            <div id='footer'></div>
+    <script src="../scripts/image-modal.js"></script>
+    <script src="../components/includes.js"></script>
+</body>
+</html>
