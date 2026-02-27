@@ -24,6 +24,6 @@ async function loadHTML(elementId, filePath) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  loadHTML("header", "../components/header.html");
-  loadHTML("footer", "../components/footer.html")
+  loadHTML("header", "/components/header.html");
+  loadHTML("footer", "/components/footer.html")
 });
